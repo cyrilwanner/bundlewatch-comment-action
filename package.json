@@ -1,6 +1,6 @@
 {
   "name": "bundlewatch-comment-action",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Post a comment to PRs with stats provided by BundleWatch.",
   "main": "lib/index.js",
   "scripts": {

@@ -11,9 +11,9 @@ Add the action to your workflow:
 ```yml
 on:
   push:
-    branches: [ master ]
+    branches: [ master ] # run on master to save stats for your main branch
   pull_request:
-    types: [ opened, synchronize ]
+    types: [ opened, synchronize ] # run on every pull request change to post a comment
 
 name: Generate Pull Request Stats
 
