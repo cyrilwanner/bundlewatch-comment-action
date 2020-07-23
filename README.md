@@ -1,4 +1,4 @@
-# bundlewatch-comment-action
+# bundlewatch-comment-action
 
 Post a comment to PRs with stats provided by BundleWatch using GitHub Actions.
 
