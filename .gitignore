@@ -6,5 +6,4 @@
 .idea
 
 # node
-node_modules
 npm-debug.log*
