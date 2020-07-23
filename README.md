@@ -10,6 +10,8 @@ Add the action to your workflow:
 
 ```yml
 on:
+  push:
+    branches: [ master ]
   pull_request:
     types: [ opened, synchronize ]
 
