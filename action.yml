@@ -1,0 +1,12 @@
+name: 'BundleWatch PR Comments'
+description: 'Post a comment to PRs with stats provided by BundleWatch.'
+inputs:
+  github-token:
+    description: 'GITHUB_TOKEN provided by GitHub with ${{ secrets.GITHUB_TOKEN }}'
+    required: true
+  bundlewatch-github-token:
+    description: 'BUNDLEWATCH_GITHUB_TOKEN from https://service.bundlewatch.io/setup-github'
+    required: true
+runs:
+  using: 'node14'
+  main: 'lib/index.js'
