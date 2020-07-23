@@ -1,5 +1,8 @@
 name: 'BundleWatch PR Comments'
 description: 'Post a comment to PRs with stats provided by BundleWatch.'
+branding:
+  icon: 'bar-chart-2'
+  color: 'blue'
 inputs:
   github-token:
     description: 'GITHUB_TOKEN provided by GitHub'
