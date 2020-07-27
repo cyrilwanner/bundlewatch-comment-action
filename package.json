@@ -4,6 +4,7 @@
   "description": "Post a comment to PRs with stats provided by BundleWatch.",
   "main": "lib/index.js",
   "scripts": {
+    "update-v1-tag": "git push origin :refs/tags/v1 && git tag -f v1 && git push origin --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
