@@ -10,6 +10,9 @@ inputs:
   bundlewatch-github-token:
     description: 'BUNDLEWATCH_GITHUB_TOKEN from https://service.bundlewatch.io/setup-github'
     required: true
+  bundlewatch-config:
+    description: 'Optional — The path to your external bundlewatch.config.js file. If not provided, it will assume the configuration exist in your package.json file'
+    required: false
 runs:
   using: 'node12'
   main: 'lib/index.js'
